@@ -1,0 +1,107 @@
+    body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: hsl(212, 45%, 89%);
+    }
+    
+    code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    }
+    
+    .card {
+        width: 300px;
+        margin: 10% 30% 10% 30%;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        background-color: hsl(0, 0%, 100%);
+    }
+    
+    .card2 {
+        width: 300px;
+        margin: 5% 30% 10% 30%;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        background-color: hsl(216, 50%, 16%);
+    }
+    
+    .stats {
+        border-bottom: 1px solid hsl(215, 32%, 27%);
+    }
+    
+    .details p {
+        color: hsl(220, 15%, 55%);
+    }
+    
+    .details span {
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .content,
+    .content2 {
+        padding: 20px;
+    }
+    
+    .photo img {
+        width: 100%;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+    }
+    
+    .text h1 {
+        font-size: 20px;
+        color: hsl(218, 44%, 22%);
+    }
+    
+    .text2 h1 {
+        color: hsl(0, 0%, 100%);
+        font-size: 20px;
+    }
+    
+    .text2 p {
+        color: hsl(220, 15%, 55%);
+        font-size: 18px;
+    }
+    
+    .text p,
+    .stats p {
+        font-size: 15px;
+        color: hsl(220, 15%, 55%);
+    }
+    
+    .ethereum p {
+        color: hsl(178, 100%, 50%);
+    }
+    
+    .stats {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .left,
+    .right {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .profile {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .profile img {
+        width: 30px;
+    }
